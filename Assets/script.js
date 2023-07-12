@@ -12,7 +12,7 @@
      //take in what was typed in the input field
      //fetch request for coordinets with API
      // convert to JSON format
-     //recive back the parse returned data
+     //recive back the returned data
      //2nd fetch request , use coodanits from first fetch to fetch weather data from API
      // convert to JSON format
      //extract temp,wind and humidity =5 day forcast from object data

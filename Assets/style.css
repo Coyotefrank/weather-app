@@ -1,0 +1,37 @@
+h1{
+    color: white;
+    background-color: blue;
+}
+
+
+
+.container {
+    border: 1px solid black;
+    padding: 10px;
+    width: 200px;
+    margin-left: 40%;
+    padding-left: 35%;
+     
+  }
+
+  .title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+
+  .content {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+
+  .list {
+    margin-top: 10px;
+    padding-left: 20px;
+    position: relative;
+  }
+
+  .list-item {
+    margin-bottom: 5px;
+    position: relative;
+  }
