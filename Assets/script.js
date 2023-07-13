@@ -1,4 +1,5 @@
 //global variables, what needs to be stored and referenced in
+var conta
 //multipul functions
 //request URLs with specefic variable names
 // store API keys
