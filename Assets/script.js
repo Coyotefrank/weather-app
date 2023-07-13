@@ -1,5 +1,6 @@
 //global variables, what needs to be stored and referenced in
-var conta
+var container1,document=queryselector("container1")
+var container2,document=queryselector("continer2")
 //multipul functions
 //request URLs with specefic variable names
 // store API keys
@@ -11,7 +12,21 @@ var conta
 
   // create search function  (can be broken upinto multiple functions)
      //take in what was typed in the input field
-     //fetch request for coordinets with API
+  //   var apiKey = 'YOUR_API_KEY';
+
+// var apiUrl = 'https://api.weatherapi.com/v1/current.json?q=London&key=' + apiKey;   
+//      fetch request for coordinets with API
+     
+//   fetch(apiUrl)
+//   .then(response => response.json())
+//   .then(data => {
+//     // Handle the API response data here
+//     console.log(data);
+//   })
+//   .catch(error => {
+//     // Handle any errors that occur during the API request
+//     console.error('Error:', error);
+//   });
      // convert to JSON format
      //recive back the returned data
      //2nd fetch request , use coodanits from first fetch to fetch weather data from API
@@ -21,3 +36,9 @@ var conta
 
 //creat a function for storing searches
   // update/call recent searched function
+
+
+//   var apiKey = 'YOUR_API_KEY';
+// var apiUrl = 'https://api.weatherapi.com/v1/current.json?q=London&key=' + apiKey;
+
+

@@ -14,13 +14,12 @@
     </header>
 
     <form>
-        <input typle="search" name="search" placeholder="search....">
+        <input type="search" name="search" placeholder="search....">
         <input type="submit" value="search">
       </form>
 
-      
    <div class="container2">
-    <h3 class="title">Container Title</h3>
+    <h2 class="title">Container Title</h2>
     <p class="content">This is the content of the container.</p>
     <ul class="list">
       <li class="list-item2">List item 1</li>
@@ -29,8 +28,10 @@
     </ul>
  </div>
       
+
+
     <div class="container">
-        <h2 class="title">Container Title</h2>
+        <h3 class="title">Container Title</h3>
         <p class="content">This is the content of the container.</p>
         <ul class="list">
           <li class="list-item">List item 1</li>
@@ -43,4 +44,21 @@
         2nd colum: todays weather of the searched city, five day forcast 
     for that city-->
 </body>
+
+<script src="/Assets/script.js">
+
+const apiKey ="";
+const apiUrl= "";
+
+async function checkWeather(){
+  const response = await fetch(apiUrl);
+}
+</script>
 </html>
+
+
+<!--- <section class= "row d-flex justifu-content-center">
+    <div class = "col-12 col-md-3 d-block">..</div>
+    <div class = "col-12 col-md-8">..</div>
+    
+    </section> -->
