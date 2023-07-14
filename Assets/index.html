@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Weather Checker</title>
     <link rel="stylesheet" href="style.css" class="css">
+    <script src="./script.js"></script>
 </head>
 <title>Container</title>
 <body>
@@ -14,30 +15,30 @@
     </header>
 
     <form>
-        <input type="search" name="search" placeholder="search....">
+        <input id="cityInput" type="search" name="search" placeholder="search....">
         <input type="submit" value="search">
       </form>
 
-   <div class="container2">
-    <h2 class="title">Container Title</h2>
+   <div class="weatherContainer">
+    <h2 class="title">Weather results</h2>
     <p class="content">This is the content of the container.</p>
-    <ul class="list">
+    <!-- <ul class="list">
       <li class="list-item2">List item 1</li>
       <li class="list-item2">List item 2</li>
       <li class="list-item2">List item 3</li>
-    </ul>
+    </ul> -->
  </div>
       
 
 
     <div class="container">
-        <h3 class="title">Container Title</h3>
+        <h3 class="title"></h3>
         <p class="content">This is the content of the container.</p>
-        <ul class="list">
+        <!-- <ul class="list">
           <li class="list-item">List item 1</li>
           <li class="list-item">List item 2</li>
           <li class="list-item">List item 3</li>
-        </ul>
+        </ul> -->
       </div>
     
     <!--two colums 1st colum : seach bar(.......), recent searches. 
@@ -45,16 +46,10 @@
     for that city-->
 </body>
 
-<script src="/Assets/script.js">
 
-const apiKey ="";
-const apiUrl= "";
 
-async function checkWeather(){
-  const response = await fetch(apiUrl);
-}
-</script>
-</html>
+
+
 
 
 <!--- <section class= "row d-flex justifu-content-center">
