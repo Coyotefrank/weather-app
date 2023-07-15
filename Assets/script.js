@@ -54,35 +54,6 @@ document.getElementById("searchForCity").addEventListener("click", function(even
   fetchWeather(userInput.value)
 })
 
-// fetchWeather();
-// function searchWeather() {
-//   var city = document.getElementById("cityInput").value;
-//   var apiKey = '249be4de6fc1f3ced3639f3f0e602786'; // Replace with your actual API key
-//   var weatherContainer = document.getElementById("weatherContainer");
-
-//   fetch(`https://api.openweathermap.org/data/2.5/forecast?q=New%20York&appid=249be4de6fc1f3ced3639f3f0e602786`)
-//     .then(response => response.json())
-//     .then(data => {
-//       console.log(data)
-//       // Extract relevant weather information from the API response
-//       var location = data.location.name;
-//       var temperature = data.current.temp;
-//       var condition = data.current.condition.text;
-
-//       // Display the weather information in the weatherContainer div
-//       weatherContainer.innerHTML = `
-//         <h2>Weather in ${location}</h2>
-//         <p>Temperature: ${temperature}°C</p>
-//         <p>Condition: ${condition}</p>
-//       `;
-//     })
-//   }
-    // .catch(error => {
-    //   // Handle any errors that occur during the API request
-    //   console.error('Error fetching weather data:', error);
-    //   weatherContainer.innerHTML = 'An error occurred while fetching weather data.';
-    // });
-  
 
 
 

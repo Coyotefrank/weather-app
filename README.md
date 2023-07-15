@@ -13,3 +13,6 @@ and google search.
 
 
 
+My info:
+https://github.com/Coyotefrank
+https://www.linkedin.com/feed/
