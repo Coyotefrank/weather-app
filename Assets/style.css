@@ -8,13 +8,51 @@ h1{
 .weatherContainer {
     border: 1px solid black;
     padding: 10px;
-    width: 200px;
+    width: 300px;
     margin-left: 40%;
     padding-left: 35%;
     margin-bottom: 65px;
      
   }
 
+  .weatherContainer2 {
+    border: 1px solid black;
+    padding: 10px;
+    width: 300px;
+    margin-left: 40%;
+    padding-left: 35%;
+    margin-bottom: 65px;
+     
+  }
+  .weatherContainer3 {
+    border: 1px solid black;
+    padding: 10px;
+    width: 300px;
+    margin-left: 40%;
+    padding-left: 35%;
+    margin-bottom: 65px;
+     
+  }
+
+  .weatherContainer4 {
+    border: 1px solid black;
+    padding: 10px;
+    width: 300px;
+    margin-left: 40%;
+    padding-left: 35%;
+    margin-bottom: 65px;
+     
+  }
+
+  .weatherContainer5 {
+    border: 1px solid black;
+    padding: 10px;
+    width: 300px;
+    margin-left: 40%;
+    padding-left: 35%;
+    margin-bottom: 65px;
+     
+  }
   .title {
     font-size: 24px;
     font-weight: bold;
@@ -37,13 +75,6 @@ h1{
     position: relative;
   }
 
-  .container {
-    border: 2px solid red;
-    padding: 10px;
-    width: 200px;
-    float: left;
-    
-  }
 
   .title {
     font-size: 24px;
@@ -60,16 +91,13 @@ h1{
     margin-top: 10px;
     padding-left: 20px;
     position: relative;
+    padding-bottom: 55px;
   }
 
-  .list-item2 {
-    margin-bottom: 5px;
-    position: relative;
-    padding-bottom: 75px;
-  }
+  
 
   body{
-    background-color:darkcyan;
+    background-color:rgba(142, 94, 181, 0.238);
   }
 
   
